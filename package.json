@@ -1,0 +1,14 @@
+{
+  "name": "1password-sdk-nodejs-docker-example",
+  "version": "1.0.0",
+  "description": "An example project using the 1Password SDK for Node.js in a Docker environment",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@1password/sdk": "^0.3.1",
+    "dotenv": "^17.2.0"
+  }
+}
